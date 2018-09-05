@@ -3,11 +3,11 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/trusty64"
-  config.vm.hostname = "php56"
+  config.vm.hostname = "php70"
   config.vm.synced_folder "../../repositories/magento", "/vagrant/magento"
 
   config.vm.provider :virtualbox do |vb|
-    vb.name = "php56"
+    vb.name = "php70"
     vb.memory = 2048
   end
 

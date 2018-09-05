@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # composer version
-composer_version="1.0.0-beta1"
+composer_version="1.4.1"
 # php version
-php_version="5.6"
+php_version="7.0"
 # system packages
 packages=(curl php$php_version unzip vim)
 # php extensions
